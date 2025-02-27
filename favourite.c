@@ -6,6 +6,8 @@ char* favouriteThing(unsigned long guid){
     switch (guid){
         case 2785066: // David
             return "a model train";
+        case 2659303:
+            return "rice";
         default:
             return NULL;
     }
